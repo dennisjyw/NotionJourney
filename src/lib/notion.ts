@@ -31,7 +31,7 @@ export async function getTripData() {
     }
 
     // 使用正確的 databases.query() 方法
-    const response = await notion.databases.query({
+    const response = await (notion.databases.query as any)({
         database_id: databaseId,
     });
 
