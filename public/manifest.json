@@ -1,0 +1,22 @@
+{
+    "name": "旅遊行程看板",
+    "short_name": "NotionJourney",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#f8f9fa",
+    "theme_color": "#a31b24",
+    "icons": [
+        {
+            "src": "/icon.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "orientation": "portrait",
+    "description": "Premium Notion-based Travel Itinerary Dashboard"
+}
